@@ -1,0 +1,27 @@
+{
+  "name": "counter-by-sagnick",
+  "version": "1.0.0",
+  "description": "A counter component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagnickkundu/counter-by-sagnick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagnickkundu/counter-by-sagnick/issues"
+  },
+  "homepage": "https://github.com/sagnickkundu/counter-by-sagnick#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
+}
